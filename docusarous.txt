@@ -1,0 +1,2 @@
+npx create-docusaurus@latest my-website classic
+npm start
