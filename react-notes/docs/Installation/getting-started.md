@@ -1,6 +1,0 @@
-##### Installation
-
-```bash
-    ls
-
-```
