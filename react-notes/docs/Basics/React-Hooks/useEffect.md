@@ -10,12 +10,12 @@ sidebar_position: 2
 
 ### Syntax
 ```js
-useState(<SETUP_FXN>, <DEPENDENCY_LIST>)
+useEffect(<SETUP_FXN>, <DEPENDENCY_LIST>)
 
 where SETUP_FXN will be called after `first-render` and then after everytime when any variable/ state from DEPENDENCY_LIST is changed.
 
 Example:
-useState(() => {}, [])
+useEffect(() => {}, [])
 ```
 <br></br>
 
@@ -41,7 +41,7 @@ function Play(){
         []
     )
 
-    useState(() => {}, [])
+    useEffect(() => {}, [])
 
     console.log("Rendering Components")
     return (
