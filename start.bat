@@ -1,4 +1,4 @@
-cd react-notes/
+cd notes/
 
 echo "Installing Node-Modules"
 npm install
