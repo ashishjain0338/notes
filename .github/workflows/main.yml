@@ -9,7 +9,7 @@ on:
 
 defaults:
   run:
-    working-directory: react-notes
+    working-directory: notes
 
 jobs:
   deploy:
@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 18
           cache: npm
-          cache-dependency-path: react-notes/package-lock.json
+          cache-dependency-path: notes/package-lock.json
 
       - name: Install dependencies
         run: npm ci
