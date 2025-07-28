@@ -18,12 +18,12 @@ const config = {
   url: 'https://ashishjain0338.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/react-notes',
+  baseUrl: '/notes',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ashishjain0338', // Usually your GitHub org/user name.
-  projectName: 'react-notes', // Usually your repo name.
+  projectName: 'notes', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
