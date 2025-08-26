@@ -2,14 +2,18 @@
 sidebar_position: 2
 ---
 
-# Inheritance
+# Inheritance (Extension)
 
 Let's cover a basic level of inheritence
 Following Section Cover the following:
 1. `extends` keyword
 2. `private` vs `public` vs `protected`
 3. `super` keyword
-
+4. It is `is-a` relationship. (Car `is-a` Vehicle)
+5. In UML, such relations are represented by `<|--` arrow pointing to parent.
+```
+Vehicle <|-- Car
+```
 
 Follow the code-comments to refersh it up:
 ```java
