@@ -33,7 +33,3 @@ Build a HLD covering the above requirements.
 #### Step-5: Deep Dive
 
 Deep Diving on any aspect the interviewer wants.
-
-# Testing
-
-blah blah blah
