@@ -6,6 +6,8 @@ sidebar_position: 1
 
 HLD represents the best way to build and scale applications to millions of users.
 
+You can also refer [here](https://www.hellointerview.com/dashboard)  for more study material.
+
 ### Tips to Approach the HLD Problem
 
 #### Step-1: Deciding Requirements
