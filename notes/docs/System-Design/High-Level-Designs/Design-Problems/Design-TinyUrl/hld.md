@@ -41,7 +41,13 @@ sidebar_position: 4
 
 ### 2. Ascess Tiny-Url Service
 
-The resposne is returned with `response-code: 301` signalling to re-direct to the url specified within the `location` header.
+The resposne can be returned with either `response-code: 301` or `responsec-code: 302` signalling to re-direct to the url specified within the `location` header.
+
+|Status-Code| Name                       | Description                        |
+|-----------|----------------------------|------------------------------------|
+| 301       | Permanently Moved Redirect | The Browser cahces the response, and further calls will not go back to the tinyUrl server |
+| 302       | Temporarily Moved Redirect | Subsequent calls will go to the tinyUrl server each time to retrieve longUrl |
+
 
 ![ascess-url-1](\img\hld-designs\TinyUrl\ascess-tinyurl-1.png)
 
